@@ -42,4 +42,8 @@ main .shape .box {
   background-color: blueviolet;
   margin: 2px;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
