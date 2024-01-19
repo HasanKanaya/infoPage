@@ -29,6 +29,7 @@ main .shape .left {
   height: 100%;
 }
 
+/* Right Side */
 main .shape .right {
   background-color: red;
   width: 35%;
@@ -47,3 +48,4 @@ main .shape .box {
   align-items: center;
   flex-direction: column;
 }
+/* Right Side */
