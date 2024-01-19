@@ -45,7 +45,7 @@ main .shape .left .img {
 }
 
 main .shape .left .btns {
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,8 +53,12 @@ main .shape .left .btns {
 }
 
 main .shape .left .btns button {
-  padding: 10px 30px;
-  width: 120px;
+  margin: 7px;
+  border-radius: 25px;
+  border: 2px solid black;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
 }
 
 /* Right Side */
