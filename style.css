@@ -27,6 +27,34 @@ main .shape .left {
   background-color: yellow;
   width: 65%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+main .shape .left .text {
+  text-align: center;
+}
+
+main .shape .left .img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+main .shape .left .btns {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+main .shape .left .btns button {
+  padding: 10px 30px;
+  width: 120px;
 }
 
 /* Right Side */
