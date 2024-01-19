@@ -37,6 +37,7 @@ main .shape .left {
 /* Text */
 main .shape .left .text {
   text-align: center;
+  transform: translateY(-10px);
 }
 /* Text */
 
