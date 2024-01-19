@@ -23,6 +23,7 @@ main .shape {
   align-items: center;
 }
 
+/* Left Side */
 main .shape .left {
   background-color: yellow;
   width: 65%;
@@ -33,10 +34,13 @@ main .shape .left {
   align-items: center;
 }
 
+/* Text */
 main .shape .left .text {
   text-align: center;
 }
+/* Text */
 
+/* Image */
 main .shape .left .img {
   width: 100px;
   height: 100px;
@@ -72,7 +76,9 @@ main .shape .left .img::after {
   border: 1px solid black;
   border-right-color: transparent;
 }
+/* Image */
 
+/* Buttons */
 main .shape .left .btns {
   display: flex;
   flex-direction: column;
@@ -88,6 +94,9 @@ main .shape .left .btns button {
   height: 40px;
   cursor: pointer;
 }
+/* Buttons */
+
+/* Left Side */
 
 /* Right Side */
 main .shape .right {
