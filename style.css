@@ -93,7 +93,14 @@ main .shape .left .btns button {
   width: 150px;
   height: 40px;
   cursor: pointer;
+  transition: background 0.4s ease;
+  font-weight: 700;
 }
+
+main .shape .left .btns button:hover {
+  background-color: rgb(175, 155, 155);
+}
+
 /* Buttons */
 
 /* Left Side */
